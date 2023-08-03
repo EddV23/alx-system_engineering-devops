@@ -1,4 +1,2 @@
 #!/bin/bash
-
-echo "Connecting to the Star Wars ASCII art server..."
 nc towel.blinkenlights.nl 23
