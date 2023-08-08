@@ -1,0 +1,2 @@
+#!/bin/bash
+printf "Result: %'d\n" $((bestchol#${WATER} + bestchol#${STIR}))
