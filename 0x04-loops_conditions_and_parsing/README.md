@@ -37,15 +37,20 @@
 ```bash
 # This script generates an RSA key pair
 ./0-RSA_public_key.pub
+```
+
 ## Task 1: Display "Best School" with For Loop
 - Use a for loop to display "Best School" 10 times
+
 ### Example
 ```bash
 # This script displays "Best School" 10 times
 ./1-for_best_school
+```
 
 ## Task 2: Display "Best School" with While Loop
 - Use a while loop to display "Best School" 10 times
+
 ### Example
 ```bash
 # This script displays "Best School" 10 times using a while loop
@@ -69,7 +74,7 @@
 ./4-if_9_say_hi
 ```
 
-### Task 5: Display Messages with Conditions
+## Task 5: Display Messages with Conditions
 - Use a while loop and if, elif, and else statements
 - Display different messages based on iteration number
 ### Example
@@ -130,7 +135,7 @@
 ./100-read_and_cut
 ```
 
-Task 12: Tell the Story of /etc/passwd
+## Task 12: Tell the Story of /etc/passwd
 - Use a while loop with IFS to display a narrative based on /etc/passwd details
 ### Example
 ```bash
@@ -138,7 +143,7 @@ Task 12: Tell the Story of /etc/passwd
 - ./102-lets_parse_apache_logs | tail -n 10
 ```
 
-Task 13: Parse Apache Logs with Awk
+## Task 13: Parse Apache Logs with Awk
 - Use awk to parse Apache log files
 - Display visitor IP addresses along with HTTP status codes
 
@@ -151,12 +156,12 @@ Task 13: Parse Apache Logs with Awk
 ## Task 14: Group Visitors by IP and HTTP Status Code
 - Use awk to group visitors by IP and HTTP status code
 - Display the data in descending order of occurrences
-### Example
 
+### Example
 ```bash
 # This script groups visitors by IP and HTTP status code
 ./103-dig_the-data | head -n 10
 ```
 
 ## License
-- This project is licensed under the MIT License - see the LICENSE.md file for details.
+- This project is licensed under the MIT License
