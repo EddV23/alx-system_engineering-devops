@@ -114,15 +114,15 @@ General Requirements
 - Each script or program comes with its own set of instructions. Follow the guidelines in the comments and execute the scripts to observe their behavior.
 
 - For the C program, compile using:
-      ```c
-      gcc 102-zombie.c -o zombie
-      ./zombie
-      ```
+    ```c
+    gcc 102-zombie.c -o zombie
+    ./zombie
+    ```
 
 - Remember to check for zombie processes using:
-      ```bash
-      ps aux | grep -e 'Z+.*<defunct>'
-      ```
+    ```bash
+    ps aux | grep -e 'Z+.*<defunct>'
+    ```
 
 ## License
 - This project is licensed under the MIT License
