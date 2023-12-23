@@ -103,26 +103,26 @@ General Requirements
     # Manages a process using init script style
     ```
 
-- **[102-zombie.c](0x05-processes_and_signals/102-zombie.c):** C program creating zombie processes.
+  - **[102-zombie.c](0x05-processes_and_signals/102-zombie.c):** C program creating zombie processes.
 
-  ```c
-  // C program creating zombie processes
-  // Displays Zombie process created, PID: ZOMBIE_PID
-  ```
+    ```c
+    // C program creating zombie processes
+    // Displays Zombie process created, PID: ZOMBIE_PID
+    ```
 
 ## Usage
 - Each script or program comes with its own set of instructions. Follow the guidelines in the comments and execute the scripts to observe their behavior.
 
 - For the C program, compile using:
-  ```c
-  gcc 102-zombie.c -o zombie
-  ./zombie
-  ```
+      ```c
+      gcc 102-zombie.c -o zombie
+      ./zombie
+      ```
 
 - Remember to check for zombie processes using:
-  ```bash
-  ps aux | grep -e 'Z+.*<defunct>'
-  ```
+      ```bash
+      ps aux | grep -e 'Z+.*<defunct>'
+      ```
 
 ## License
 - This project is licensed under the MIT License
