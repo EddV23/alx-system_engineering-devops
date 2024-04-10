@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""queries Reddit,parses title of hot articles,sorts&prints count of keywords"""
+"""queries Reddit,parses title of hotarticles,sorts&prints count of keywords"""
 import requests
 
 
